@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1DataMigrationService", "V1DataMigrationService\V1DataMigrationService.csproj", "{BC49D0D5-09A0-413B-BAFD-120B5A6B45B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC2C7A91-D74C-4600-BC45-DBDC1956653D} = {CC2C7A91-D74C-4600-BC45-DBDC1956653D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1DataReader", "V1DataReader\V1DataReader.csproj", "{A0BD21AE-851F-42CE-8CE0-8D3A84E017B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1DataWriter", "V1DataWriter\V1DataWriter.csproj", "{7E6CF966-A38A-436E-B926-761F69B35147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1DataCore", "V1DataCore\V1DataCore.csproj", "{D9232C9F-88F4-44C5-B47F-AF8C5BA42860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1DataCleanup", "V1DataCleanup\V1DataCleanup.csproj", "{8AF6EAC8-B540-4EA3-9FAF-B2AA520E3E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiraReaderService", "JiraReaderService\JiraReaderService.csproj", "{CC2C7A91-D74C-4600-BC45-DBDC1956653D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9232C9F-88F4-44C5-B47F-AF8C5BA42860} = {D9232C9F-88F4-44C5-B47F-AF8C5BA42860}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC49D0D5-09A0-413B-BAFD-120B5A6B45B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC49D0D5-09A0-413B-BAFD-120B5A6B45B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC49D0D5-09A0-413B-BAFD-120B5A6B45B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC49D0D5-09A0-413B-BAFD-120B5A6B45B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BD21AE-851F-42CE-8CE0-8D3A84E017B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BD21AE-851F-42CE-8CE0-8D3A84E017B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BD21AE-851F-42CE-8CE0-8D3A84E017B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BD21AE-851F-42CE-8CE0-8D3A84E017B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6CF966-A38A-436E-B926-761F69B35147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6CF966-A38A-436E-B926-761F69B35147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6CF966-A38A-436E-B926-761F69B35147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6CF966-A38A-436E-B926-761F69B35147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9232C9F-88F4-44C5-B47F-AF8C5BA42860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9232C9F-88F4-44C5-B47F-AF8C5BA42860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9232C9F-88F4-44C5-B47F-AF8C5BA42860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9232C9F-88F4-44C5-B47F-AF8C5BA42860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF6EAC8-B540-4EA3-9FAF-B2AA520E3E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF6EAC8-B540-4EA3-9FAF-B2AA520E3E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF6EAC8-B540-4EA3-9FAF-B2AA520E3E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF6EAC8-B540-4EA3-9FAF-B2AA520E3E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2C7A91-D74C-4600-BC45-DBDC1956653D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2C7A91-D74C-4600-BC45-DBDC1956653D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2C7A91-D74C-4600-BC45-DBDC1956653D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2C7A91-D74C-4600-BC45-DBDC1956653D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
